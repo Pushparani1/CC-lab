@@ -1,4 +1,5 @@
 #include <stdio.h>
+<<<<<<< HEAD
 #include <stdlib.h>
 #include "student.h"
 
@@ -31,5 +32,14 @@ int main() {
         }
     }
 
+=======
+#include "menu.h"
+#include "student.h"
+
+int main(void) {
+    Student students[10];
+    int count = 0;
+    show_menu(students, &count);
+>>>>>>> 9948b04 (added test-2 files)
     return 0;
 }
